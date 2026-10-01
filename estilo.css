@@ -14,7 +14,7 @@ head {
     background-color: #d4ffc7;
 }
 
-header {
+.cabecera-principal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +70,22 @@ footer {
     background-color: #6a6d69;
 }
 
+.seccion {
+    color: black;
+    background-color: #51689277;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin: 1px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.seccion:hover {
+    color: white;
+    background-color: #677183;
+}
+
 .boton-activo {
     color: white;
     background-color: #6a6d69;
@@ -110,5 +126,25 @@ footer {
     height: auto;
     object-fit: cover;
     padding: 15px;
+    border-radius: 20px;
+    display: block;
+}
+
+.seccion-adopcion {
+    background-color: #616ba36c;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px 5px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.img-cuadrada {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 5px;
     border-radius: 20px;
 }

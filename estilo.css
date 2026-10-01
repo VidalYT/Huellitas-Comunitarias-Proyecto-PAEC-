@@ -98,8 +98,9 @@ footer {
 
 .barra-navegacion {
     display: flex;
-    gap: 15px;
+    gap: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
     justify-content: center;
 }
 
@@ -121,6 +122,12 @@ footer {
     justify-content: left;
 }
 
+.content-center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .img-fix {
     width: 25%;
     height: auto;
@@ -130,7 +137,7 @@ footer {
     display: block;
 }
 
-.seccion-adopcion {
+.seccion-adopcion-perro {
     background-color: #616ba36c;
     border-radius: 15px;
     display: flex;
@@ -139,6 +146,41 @@ footer {
     align-items: flex-start;
     justify-content: left;
     margin-bottom: 5px;
+}
+
+.subseccion-perro {
+    border-radius: 15px;
+    background-color: #616ba36c;
+    padding: 10px 10px;
+}
+
+.resaltar-texto-p {
+    background-color: #acb6ed90;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.seccion-adopcion-gato {
+    background-color: #1e163d6c;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px 5px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.subseccion-gato {
+    border-radius: 15px;
+    background-color: #616ba36c;
+    padding: 10px 10px;
+}
+
+.resaltar-texto-g {
+    background-color: #acb6ed90;
+    padding: 5px 5px;
+    border-radius: 5px;
 }
 
 .img-cuadrada {

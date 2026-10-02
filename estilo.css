@@ -187,6 +187,17 @@ footer {
     display: block;
 }
 
+.seccion-suministros {
+    background-color: #e7e7e7;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px 5px;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    margin: 2px;
+}
+
 .seccion-adopcion {
     background-color: #616ba36c;
     border-radius: 15px;
